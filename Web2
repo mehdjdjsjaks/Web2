@@ -1,0 +1,32 @@
+html_content = """<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پیام مهم</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>صبور باشید دوست عزیز! به گدی بگو فشار نخوره.</h1>
+</body>
+</html>
+"""
+
+with open("index.html", "w", encoding="utf-8") as file:
+    file.write(html_content)
+
+print("فایل index.html با موفقیت ساخته شد!")
